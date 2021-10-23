@@ -159,3 +159,8 @@ Thêm option tại file `webpack.config.json`:
 ``` js
 const mode =process.env.NODE_ENV === "production" ? "production" : "development";
 ```
+
+
+### Khác 
+[webpack-dev ](https://webpack.js.org/configuration/dev-server/#websockettransport)
+* config devServer  cho các giao thức khác nhau có thể tìm ở đây.
