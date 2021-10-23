@@ -1,0 +1,7 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "Learn webpack",
+  "main": "index.js",
+  "license": "MIT"
+}
