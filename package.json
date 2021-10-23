@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "description": "Learn webpack",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "build":"webpack"
+  }
 }

@@ -1,0 +1,1 @@
+(()=>{"use strict";const o="wizard",l="barbarian";console.log(" Ran from index.js"),console.log(o),console.log(l),console.log(o),console.log(l)})();
