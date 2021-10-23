@@ -70,12 +70,12 @@ orphan modules 66 bytes [orphan] 2 modules
 ## config webpack trung bình
 
 ```
-  |--dist|- index.html     
-  |      | 
+  |--dist|- index.html
+  |      |
   |      |- main.js
   |      |
   |      |- main.js.map
-  |      
+  |
   |--src-|- barbarian.js
   |      |
   |      |- index.js
@@ -86,8 +86,6 @@ orphan modules 66 bytes [orphan] 2 modules
   |- index.html (delete )
 
 ```
-
-
 
 **Tải các package cần thiết**
 
@@ -132,7 +130,7 @@ Thay vì việc ( f12-> source mở map file) thì tạo một live hot reload s
 yarn add webpack-dev-server
 ```
 
-Thêm option tại  file `webpack.config.json`:
+Thêm option tại file `webpack.config.json`:
 
 ```js
  // hot reload server
@@ -145,4 +143,19 @@ Thêm option tại  file `webpack.config.json`:
   },
 
 
+```
+
+## Chay lệnh thông qua env
+
+
+* __package.json__
+```js
+"build": " NODE_ENV=production   webpack --watch" ,
+ "build-dev": " NODE_ENV=development  webpack --watch"
+```
+
+* __webpack.config.js__
+
+``` js
+const mode =process.env.NODE_ENV === "production" ? "production" : "development";
 ```
