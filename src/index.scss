@@ -1,0 +1,17 @@
+
+:root {
+    --mainBg: salmon;
+    --text: green;
+}
+
+
+body {
+    background: var(--mainBg);
+  
+    h1 {
+        color: var(--text);
+        font-size: 60px;
+        text-align: center;
+    }
+}
+

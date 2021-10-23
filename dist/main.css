@@ -1,0 +1,4 @@
+:root{--mainBg: salmon;--text: green}body{background:var(--mainBg)}body h1{color:var(--text);font-size:60px;text-align:center}
+h2{font-size:60px;text-align:center;background-color:#4169e1}
+
+/*# sourceMappingURL=main.css.map*/
